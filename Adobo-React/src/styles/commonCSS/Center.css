@@ -1,0 +1,20 @@
+
+.text-container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+
+}
+.text-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.text-container2 > h1 {
+  color: red;
+  font-size: 4rem;
+}
+.text-container2 > p {
+  font-size: 2rem;
+}

@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  transition: 0.5s ease;
+}
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  height: 500px; 
+  width: 80%; 
+  border-radius: 2rem;
+  background: linear-gradient(to right, #FFC0CB 20%, #FF69B4 40%, #FF1493 60%, #FF00FF 80%, #C71585 100%);
+  background-size: 400% 400%;
+  animation: morphingGradient 10s linear infinite;
+}
+
+.text-container {
+  height: 100%;
+  width: 60%; 
+  padding: 2rem; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: start;
+  align-items: flex-start; 
+}
+
+.text-container .text-content h1 {
+  font-size: 3rem;
+  padding-top: 2rem;
+  margin: 0; 
+}
+
+
+.image-container {
+  height: 100%;
+  width: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8rem;
+  padding-right: 4rem
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+.description-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+.description-container .clock-container,
+.description-container .category-container {
+  width: 8rem;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+.description-container .clock-container .fa-clock,
+.description-container .category-container .fa-utensils {
+  padding-right: 0.5rem;
+} 
+.creator-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+.creator {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.creator-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.625rem;
+}
+.creator-container .name {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+.btn a {
+  text-decoration: none;
+  margin-left: 1.5rem;
+  border: 2px solid black;
+  color: black;
+  padding: 0.8rem;
+  border-radius: 8px;
+}

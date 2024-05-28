@@ -1,0 +1,14 @@
+.container {
+  text-align: center;
+}
+.header {
+  font-size: 4rem;
+}
+.description {
+  font-size: 1.5rem;
+}
+.button {
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.5rem;
+}
